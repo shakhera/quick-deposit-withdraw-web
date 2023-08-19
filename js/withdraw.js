@@ -12,8 +12,8 @@ document.getElementById('withdraw').addEventListener('click', function () {
         return; // akhan there return kore,tai clear kore na,tai age dite hobe;
     }
 
-    console.log(withdrawAmount);
-    console.log(typeof withdrawAmount);
+    // console.log(withdrawAmount);
+    // console.log(typeof withdrawAmount);
 
     //.........03: 
     const withdrawTotalElement = document.getElementById('withdraw-total');
