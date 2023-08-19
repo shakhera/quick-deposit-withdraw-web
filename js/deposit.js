@@ -3,7 +3,7 @@ document.getElementById('deposit').addEventListener('click', function () {
     //step-2
     //get the deposit amount from deposit input field
     //
-    const depositField = document.getElementById('deposit-amount');
+    const depositField = document.getElementById('deposit-field');
     const depositAmountString = depositField.value;
     const depositAmount = parseFloat(depositAmountString);
 
@@ -29,7 +29,7 @@ document.getElementById('deposit').addEventListener('click', function () {
     const totalBalanceElement = document.getElementById('total-balance');
     const previousTotalBalanceString = totalBalanceElement.innerText;
     const previousTotalBalance = parseFloat(previousTotalBalanceString);
-    //,........
+    //summation of Total Balance
     const currentTotalBalance = previousTotalBalance + depositAmount;
     totalBalanceElement.innerText = currentTotalBalance;
     console.log(currentTotalBalance);
